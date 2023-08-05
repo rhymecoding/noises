@@ -1,7 +1,8 @@
-<h1 class="text-3xl font-bold underline">Welcome to SvelteKit</h1>
+<div class="h-screen">
+	<h1 class="text-center text-4xl pt-6">白噪音</h1>
+</div>
 
 <style lang="postcss">
 	:global(html) {
-		background-color: theme(colors.gray.100);
 	}
 </style>
