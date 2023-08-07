@@ -36,9 +36,11 @@
 	img {
 		@apply inline-block w-[52px] h-[52px] border-[3px] rounded-full cursor-pointer opacity-30 duration-100 hover:scale-[1.1];
 	}
+
 	img:hover {
 		box-shadow: 0 0 16px #666;
 	}
+
 	.active {
 		opacity: 1;
 	}

@@ -54,9 +54,11 @@
 	.play-btn {
 		@apply w-[48px] h-[48px] border-2 border-white p-[8px] cursor-pointer rounded-full opacity-50 transition-opacity duration-200 hover:opacity-100;
 	}
+
 	.volume-btn {
 		@apply w-[32px] h-[32px] border-2 border-white p-[6px] rounded-full cursor-pointer opacity-50 transition-opacity duration-200 hover:opacity-100;
 	}
+
 	.volume {
 		@apply w-[32px] h-[32px] opacity-75;
 	}
