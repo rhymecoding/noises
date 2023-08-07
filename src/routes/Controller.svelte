@@ -1,6 +1,16 @@
 <script lang="ts">
 	import { VoiceVolume } from './VoiceVolume';
 	import { createEventDispatcher } from 'svelte';
+	import playIcon from '../assets/play.png';
+	import pauseIcon from '../assets/pause.png';
+	import volDownIcon from '../assets/volDown.png';
+	import volUpIcon from '../assets/volUp.png';
+	import level0Icon from '../assets/level0.png';
+	import level1Icon from '../assets/level1.png';
+	import level2Icon from '../assets/level2.png';
+	import level3Icon from '../assets/level3.png';
+	import level4Icon from '../assets/level4.png';
+	import level5Icon from '../assets/level5.png';
 
 	const dispatch = createEventDispatcher();
 
@@ -8,14 +18,14 @@
 
 	export let playing: boolean;
 
-	let levelIndex: number;
+	let levelIcon: string;
 	$: {
-		if (volume === VoiceVolume.LEVEL_0) levelIndex = 0;
-		if (volume === VoiceVolume.LEVEL_1) levelIndex = 1;
-		if (volume === VoiceVolume.LEVEL_2) levelIndex = 2;
-		if (volume === VoiceVolume.LEVEL_3) levelIndex = 3;
-		if (volume === VoiceVolume.LEVEL_4) levelIndex = 4;
-		if (volume === VoiceVolume.LEVEL_5) levelIndex = 5;
+		if (volume === VoiceVolume.LEVEL_0) levelIcon = level0Icon;
+		if (volume === VoiceVolume.LEVEL_1) levelIcon = level1Icon;
+		if (volume === VoiceVolume.LEVEL_2) levelIcon = level2Icon;
+		if (volume === VoiceVolume.LEVEL_3) levelIcon = level3Icon;
+		if (volume === VoiceVolume.LEVEL_4) levelIcon = level4Icon;
+		if (volume === VoiceVolume.LEVEL_5) levelIcon = level5Icon;
 	}
 
 	const increment = () => {
@@ -32,12 +42,12 @@
 </script>
 
 <div class="flex justify-center">
-	<img class="play-btn" src="/img/{playing ? 'play' : 'pause'}.png" alt="" on:click={play} />
+	<img class="play-btn" src={playing ? playIcon : pauseIcon} alt="" on:click={play} />
 </div>
 <div class="flex justify-center gap-2">
-	<img src="/img/volDown.png" alt="减小音量" class="volume-btn" on:click={decrement} />
-	<img src={`/img/level${levelIndex}.png`} alt="音量" class="volume" />
-	<img src="/img/volUp.png" alt="增加音量" class="volume-btn" on:click={increment} />
+	<img src={volDownIcon} alt="减小音量" class="volume-btn" on:click={decrement} />
+	<img src={levelIcon} alt="音量" class="volume" />
+	<img src={volUpIcon} alt="增加音量" class="volume-btn" on:click={increment} />
 </div>
 
 <style lang="postcss">

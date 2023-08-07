@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
 	import { VoiceStatus } from './VoiceStatus';
+	import loadingIcon from '../assets/loading.gif';
 
 	const dispatch = createEventDispatcher();
 
@@ -11,7 +12,7 @@
 
 	let src: string;
 	$: if (status === VoiceStatus.LOADING) {
-		src = `/img/loading.gif`;
+		src = loadingIcon;
 	} else {
 		src = img;
 	}
