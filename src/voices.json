@@ -1,150 +1,180 @@
 [
 	{
+		"name": "Brook",
 		"img": "https://noises.online/Icons/aa.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/aa.ogg",
 		"color": "rgb(69, 144, 161)"
 	},
 	{
+		"name": "Creek",
 		"img": "https://noises.online/Icons/abn.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/ab.ogg",
 		"color": "rgb(69, 144, 161)"
 	},
 	{
+		"name": "Stream",
 		"img": "https://noises.online/Icons/acn.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/ac.ogg",
 		"color": "rgb(69, 144, 161)"
 	},
 	{
+		"name": "Close Waterfall",
 		"img": "https://noises.online/Icons/adn.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/ad.ogg",
 		"color": "rgb(69, 144, 161)"
 	},
 	{
+		"name": "Distant Waterfall",
 		"img": "https://noises.online/Icons/aen.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/ae.ogg",
 		"color": "rgb(69, 144, 161)"
 	},
 	{
+		"name": "Calm Shore",
 		"img": "https://noises.online/Icons/ban.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/ba.ogg",
 		"color": "rgb(0, 102, 153)"
 	},
 	{
+		"name": "Shore",
 		"img": "https://noises.online/Icons/bbn.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/bb.ogg",
 		"color": "rgb(0, 102, 153)"
 	},
 	{
+		"name": "Wild Shore",
 		"img": "https://noises.online/Icons/bcn.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/bc.ogg",
 		"color": "rgb(0, 102, 153)"
 	},
 	{
+		"name": "Ocean Waves",
 		"img": "https://noises.online/Icons/bdn.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/bd.ogg",
 		"color": "rgb(0, 102, 153)"
 	},
 	{
+		"name": "Large Waves",
 		"img": "https://noises.online/Icons/ben.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/be.ogg",
 		"color": "rgb(0, 102, 153)"
 	},
 	{
+		"name": "Rain Drops",
 		"img": "https://noises.online/Icons/can.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/ca.ogg",
 		"color": "rgb(102, 153, 187)"
 	},
 	{
+		"name": "Pouring Rain",
 		"img": "https://noises.online/Icons/cbn.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/cb.ogg",
 		"color": "rgb(102, 153, 187)"
 	},
 	{
+		"name": "Distant Thunder",
 		"img": "https://noises.online/Icons/ccn.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/cc.ogg",
 		"color": "rgb(153, 153, 153)"
 	},
 	{
+		"name": "Closer Thunder",
 		"img": "https://noises.online/Icons/cdn.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/cd.ogg",
 		"color": "rgb(153, 153, 153)"
 	},
 	{
+		"name": "Coastal Wind",
 		"img": "https://noises.online/Icons/cen.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/ce.ogg",
 		"color": "rgb(153, 102, 51)"
 	},
 	{
+		"name": "Forest Wind",
 		"img": "https://noises.online/Icons/cfn.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/cf.ogg",
 		"color": "rgb(153, 102, 51)"
 	},
 	{
+		"name": "Autumn Breeze",
 		"img": "https://noises.online/Icons/cgn.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/cg.ogg",
 		"color": "rgb(153, 102, 51)"
 	},
 	{
+		"name": "Birds",
 		"img": "https://noises.online/Icons/dan.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/da.ogg",
 		"color": "rgb(51, 153, 102)"
 	},
 	{
+		"name": "Frogs",
 		"img": "https://noises.online/Icons/dbn.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/db.ogg",
 		"color": "rgb(51, 153, 102)"
 	},
 	{
+		"name": "Summer Night",
 		"img": "https://noises.online/Icons/dcn.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/dc.ogg",
 		"color": "rgb(51, 153, 102)"
 	},
 	{
+		"name": "Heat Wave",
 		"img": "https://noises.online/Icons/ddn.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/dd.ogg",
 		"color": "rgb(51, 153, 102)"
 	},
 	{
+		"name": "Bonfire",
 		"img": "https://noises.online/Icons/ean.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/ea.ogg",
 		"color": "rgb(204, 0, 0)"
 	},
 	{
+		"name": "Coffee House",
 		"img": "https://noises.online/Icons/fan.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/fa.ogg",
 		"color": "rgb(102, 51, 153)"
 	},
 	{
+		"name": "Cocktail Voices",
 		"img": "https://noises.online/Icons/fbn.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/fb.ogg",
 		"color": "rgb(102, 51, 153)"
 	},
 	{
+		"name": "Meditation Time",
 		"img": "https://noises.online/Icons/gan.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/ga.ogg",
 		"color": "rgb(102, 153, 51)"
 	},
 	{
+		"name": "Wind Chimes",
 		"img": "https://noises.online/Icons/gbn.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/gb.ogg",
 		"color": "rgb(102, 153, 51)"
 	},
 	{
+		"name": "Fan Noise",
 		"img": "https://noises.online/Icons/han.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/ha.ogg",
 		"color": "rgb(51, 153, 153)"
 	},
 	{
+		"name": "Brown Noise",
 		"img": "https://noises.online/Icons/ian.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/ia.ogg",
 		"color": "rgb(102, 51, 0)"
 	},
 	{
+		"name": "Pink Noise",
 		"img": "https://noises.online/Icons/ibn.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/ib.ogg",
 		"color": "rgb(153, 51, 102)"
 	},
 	{
+		"name": "White Noise",
 		"img": "https://noises.online/Icons/icn.png",
 		"voice": "https://mynoise.world/NoisesOnline/Audio/ic.ogg",
 		"color": "rgb(170, 170, 170)"
