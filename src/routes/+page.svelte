@@ -41,12 +41,16 @@
 
 	const play = () => {
 		if (playing) {
-			for (const el of audios.values()) {
-				el.pause();
+			for (const [voice, el] of audios.entries()) {
+				if (voice.status === VoiceStatus.ACTIVE) {
+					el.pause();
+				}
 			}
 		} else {
-			for (const el of audios.values()) {
-				el.play();
+			for (const [voice, el] of audios.entries()) {
+				if (voice.status === VoiceStatus.ACTIVE) {
+					el.play();
+				}
 			}
 		}
 		playing = !playing;
@@ -109,7 +113,9 @@
 			voice.status = VoiceStatus.LOADING;
 			voices = voices;
 			if (audios.has(voice)) {
-				audios.get(voice)?.play();
+				if (playing) {
+					audios.get(voice)?.play();
+				}
 				voice.status = VoiceStatus.ACTIVE;
 				voices = voices;
 				return;
@@ -160,7 +166,7 @@
 
 <div class="h-screen">
 	<h1 class="text-center text-gray-800 text-4xl pt-8">白噪音</h1>
-	<div class="mt-10">
+	<div class="mt-8">
 		<Controller
 			{volume}
 			{playing}
