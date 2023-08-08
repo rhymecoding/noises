@@ -214,7 +214,11 @@
 			localStorage
 				.getItem('voices')
 				?.split(',')
-				.filter((item) => item !== '') || [];
+				.filter((item) => item !== '') ?? [];
+
+		if (!activeVoiceNames.length) {
+			activeVoiceNames.push(voices[Math.floor(Math.random() * 30)].name);
+		}
 
 		volume = localStorage.getItem('volume')
 			? Number(localStorage.getItem('volume'))
